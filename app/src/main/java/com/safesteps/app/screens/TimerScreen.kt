@@ -99,11 +99,5 @@ fun TimerScreen() {
 
         Spacer(modifier = Modifier.height(32.dp))
 
-        Text(
-            text = stringResource(id = R.string.timer_placeholder),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            textAlign = TextAlign.Center
-        )
     }
 }
