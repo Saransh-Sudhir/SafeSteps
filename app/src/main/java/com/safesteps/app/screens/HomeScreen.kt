@@ -232,3 +232,13 @@ private fun shareLocation(context: Context) {
     }
     context.startActivity(Intent.createChooser(shareIntent, "Share Location"))
 }
+
+// prompt used:
+// working on the Safety Timer feature for an app. I have already established a
+// basic SOS alert and SMS permission logic within the HomeScreen.kt specifically
+// the triggerSOSAlert function. help me understand the logic and idea execution
+// for integrating this SMS functionality into the timer? how do i structure the
+// code so that when the timer reaches zero, it triggers the SMS alert
+// automatically. and also, how should I bridge the gap between the ui based SOS
+// button logic and the background-triggered timer event to ensure sms permissions
+// are respected and the alert is sent reliably upon expiry?

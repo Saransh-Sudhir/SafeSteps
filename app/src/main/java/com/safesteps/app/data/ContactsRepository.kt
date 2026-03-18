@@ -101,3 +101,11 @@ class ContactsRepository(private val context: Context) {
         )
     }
 }
+
+// prompt used:
+// using Jetpack DataStore to persist a list of emergency contacts for my project,
+// since DataStore prefers key-value pairs, i need to store my list as a
+// serialized JSON string. Can you explain the logic for using Kotlin
+// serialization to transform my List<Contact> into a string for storage and
+// then back into a Flow<List<Contact>> for the UI? I want to ensure the
+// data remains reactive so the UI updates immediately when a contact is added.

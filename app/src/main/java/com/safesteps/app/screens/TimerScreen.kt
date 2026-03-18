@@ -101,3 +101,11 @@ fun TimerScreen() {
 
     }
 }
+
+// prompt used:
+// I am implementing a Safety Timer feature in an Android app using
+// Jetpack Compose. I currently have a TimerScreen with a slider to select
+// duration and a start/stop button controlled by a Boolean state. how should
+// I structure the interaction between the Compose state (isRunning, timerValue)
+// and a background service so that the timer remains consistent and can trigger
+// an action when it finishes?

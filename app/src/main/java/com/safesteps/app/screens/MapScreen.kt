@@ -114,3 +114,10 @@ fun MapScreen() {
         }
     }
 }
+
+// prompt used:
+// i am integrating Google Maps into SafeSteps. i need to show the user's
+// current location and plot markers for nearby safety points, police or hospital.
+// What is the correct way to handle the MapView lifecycle in Compose and how
+// do i implement the logic to move the camera to the user's position only on
+// the first load while allowing them to move the map freely afterwards?
